@@ -22,6 +22,6 @@ if has("gui_running")
     endif
   endif
 else
-  set background=light
-  colorscheme railscasts
+  set bg=light
+  " colorscheme railscasts
 endif

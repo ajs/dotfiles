@@ -17,12 +17,6 @@ function! statusline#set()
   " clear statusline
   set statusline=
 
-  if exists("*fugitive#statusline")
-    set statusline+=%{fugitive#statusline()}
-  else
-    echoerr "Fugitive is not installed, please run :BundleInstall"
-  endif
-
   " %2* means invert the background/foreground colors
   set statusline+=%2*
   " space at the end

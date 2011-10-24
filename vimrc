@@ -15,7 +15,7 @@ call pathogen#helptags() " Generate help tags for every bundle
 " RVM fix via http://rvm.beginrescueend.com/integration/vim/
 set shell=/bin/sh
 
-source $HOME/.vim/vundle.vim
+" source $HOME/.vim/vundle.vim
 source $HOME/.vim/statusline.vim
 source $HOME/.vim/colorscheme.vim
 source $HOME/.vim/options.vim
